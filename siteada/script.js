@@ -1,5 +1,6 @@
-if (document.getElementById("nome").value != "" &&
-    document.getElementById("email").value != "") {
+if (document.getElementById("nome").value !== "" &&
+    document.getElementById("email").value !== "") {
+    alert("Printinho! você receberá as novidades por email.");
 } else {
-    // peça a usuária que preencha os campos e-mail
+    alert("Por favor, preencha os campos nome e e-mail.");
 }
